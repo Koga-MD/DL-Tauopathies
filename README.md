@@ -1,5 +1,5 @@
 # DL-Tauopathies
-This repository contains all python codes used in our manuscript. The codes are provided as JupyterLab script files (.ipynb). There are 2 script files and 9 CSV files as follows:
+This repository contains all python code used in our manuscript. The code is provided as JupyterLab script files (.ipynb). There are 2 script files and 9 CSV files as follows:
 
 <div>
 <B>1. Training object detection model & Tau quantification & Generating random forest classfier & Hold-out validation study</B> <BR>
