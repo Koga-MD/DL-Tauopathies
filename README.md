@@ -3,18 +3,19 @@
 1. Prepare Google account and Google Drive
 2. Make "task1" folder on your Google Drive
 3. Download our tuned models and image datasets from our repository on Zenodo (https://zenodo.org/record/5082081)
-4. Upload these files to "task1" folder on Google Drive
-5. Click 1_Object_Detection_v5.ipynb file on GitHub
-6. Click "Open in Colab" tab
-7. Click the 2nd Cell to mount your Google Drive
-8. Click the 3rd Cell to install modules
-9. Click the 4th Cell to download and setup YOLOv3
-10. You can skip 5th and 6th Cells, which are used for training models.
-11. Click the 7th Cell to copy files from your Google Drive "task1" folder. Image files are unzipped and renamed.
-12. Click the 8th Cell to start analysis. It may take up to one hour to complete 12 images. 
-13. Results are provided as a csv file at "/content/darknet/task1/result/FinalResult.csv"
-14. Click the 11th Cell to analyze the result. Predicted diagnoses will be shown below the Cell. In this dataset, predicted diagnoses are CBD (Case 1), AD (Case 2), PSP (Case 3), and PiD (Case 4), respectively.
-15. You can see analyzed images with bounding boxes at "/content/darknet/drive/result2"
+4. Download our csv files from "Files" directory on this repository.
+5. Upload these files to "task1" folder on Google Drive
+6. Click 1_Object_Detection_v5.ipynb file on GitHub
+7. Click "Open in Colab" tab
+8. Click the 2nd Cell to mount your Google Drive
+9. Click the 3rd Cell to install modules
+10. Click the 4th Cell to download and setup YOLOv3
+11. You can skip 5th and 6th Cells, which are used for training models.
+12. Click the 7th Cell to copy files from your Google Drive "task1" folder. Image files are unzipped and renamed.
+13. Click the 8th Cell to start analysis. It may take up to one hour to complete 12 images. 
+14. Results are provided as a csv file at "/content/darknet/task1/result/FinalResult.csv"
+15. Click the 11th Cell to analyze the result. Predicted diagnoses will be shown below the Cell. In this dataset, predicted diagnoses are CBD (Case 1), AD (Case 2), PSP (Case 3), and PiD (Case 4), respectively.
+16. You can see analyzed images with bounding boxes at "/content/darknet/drive/result2"
 
 
 <B>About this repository</B>  
