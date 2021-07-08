@@ -18,5 +18,5 @@ CSV files for random forest will be downloaded from "Files" directory. After dow
 </div><BR>
 <div>
 <B>4. Other files</B><BR>  
-The image data (Data.zip and Test.zip) and tuned models (Model1.weights, Model2.weights, and Model3.weights) used in the paper are available from our Zenodo repository.
+The image data (Data.zip and Test.zip) and tuned models (Model1.weights, Model2.weights, and Model3.weights) used in the paper are available from our Zenodo repository (https://zenodo.org/record/5082081).
 </div>
