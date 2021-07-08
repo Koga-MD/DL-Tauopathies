@@ -1,6 +1,5 @@
 # DL-Tauopathies
 <B>QuickStart Guide</B>
-
 1. Prepare Google account and Google Drive
 2. Make "task1" folder on your Google Drive
 3. Download tuned models and image datasets from our repository on Zenodo (https://zenodo.org/record/5082081)
@@ -16,6 +15,7 @@
 13. Results are provided as a csv file at "/content/darknet/task1/result/FinalResult.csv"
 14. Click the 11th Cell to analyze the result. Predicted diagnoses will be shown below the Cell. In this dataset, predicted diagnoses are CBD (Case 1), AD (Case 2), PSP (Case 3), and PiD (Case 4), respectively.
 15. You can see analyzed images with bounding boxes at "/content/darknet/drive/result2"
+
 
 <B>About this repository</B>  
 This repository contains all python code used in our manuscript. The code is provided as JupyterLab script files (.ipynb). There are 2 script files and 9 CSV files as follows:
