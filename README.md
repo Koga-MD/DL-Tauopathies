@@ -2,7 +2,7 @@
 <B>QuickStart Guide</B>
 1. Prepare Google account and Google Drive
 2. Make "task1" folder on your Google Drive
-3. Download tuned models and image datasets from our repository on Zenodo (https://zenodo.org/record/5082081)
+3. Download our tuned models and image datasets from our repository on Zenodo (https://zenodo.org/record/5082081)
 4. Upload these files to "task1" folder on Google Drive
 5. Click 1_Object_Detection_v5.ipynb file on GitHub
 6. Click "Open in Colab" tab
@@ -15,11 +15,11 @@
 13. Results are provided as a csv file at "/content/darknet/task1/result/FinalResult.csv"
 14. Click the 11th Cell to analyze the result. Predicted diagnoses will be shown below the Cell. In this dataset, predicted diagnoses are CBD (Case 1), AD (Case 2), PSP (Case 3), and PiD (Case 4), respectively.
 15. You can see analyzed images with bounding boxes at "/content/darknet/drive/result2"
-
-
+<BR><BR>
 <B>About this repository</B>  
+<div>
 This repository contains all python code used in our manuscript. The code is provided as JupyterLab script files (.ipynb). There are 2 script files and 9 CSV files as follows:
-
+</div><br>
 <div>
 <B>1. Training object detection model & Tau quantification & Generating random forest classfier & Hold-out validation study</B> <BR>
 With this script, training data (JPG and TXT files) are used to train the YOLO v3 object detection model. After completing the training, the best weight is saved in "drive/" directory. Next, we uploaded a zip file that contains 360 images from 120 cases (RF-1 to RF-120), unzip the file, and applied the object detection model to these images. The quantitative tau lesion burden is obtained and saved in a CSV file.<BR>
