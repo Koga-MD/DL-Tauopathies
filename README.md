@@ -38,5 +38,5 @@ CSV files for random forest will be downloaded from "Files" directory. After dow
 </div><BR>
 <div>
 <B>4. Other files</B><BR>  
-The image data (Data.zip and Test.zip), tuned models (Model1.weights, Model2.weights, and Model3.weights), and 9 CSV files used in the paper are available from our Zenodo repository (https://zenodo.org/record/5093997). Data.zip contains 2522 of each image and text file for training models. Test.zip contains 12 images from 4 patients, which are a part of the hold-out dataset images used in the paper.
+The image data (Data.zip and Test.zip), tuned models (Model1.weights, Model2.weights, and Model3.weights), and 9 CSV files used in the paper are available from our Zenodo repository (https://zenodo.org/record/5083997). Data.zip contains 2522 of each image and text file for training models. Test.zip contains 12 images from 4 patients, which are a part of the hold-out dataset images used in the paper.
 </div>
