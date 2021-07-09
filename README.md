@@ -2,9 +2,9 @@
 <B>About this repository</B>  
 <div>
 This repository contains all python code used in our manuscript (Koga et al. <I>Under Revision</I>). The code is provided as JupyterLab script files (.ipynb). The image data (Data.zip and Test.zip), tuned models (Model1.weights, Model2.weights, and Model3.weights), and 9 CSV files used in the paper are available from our Zenodo repository (https://zenodo.org/record/5083997). Data.zip contains 2522 of each image and text file for training models. Test.zip contains 12 images from 4 patients, which are a part of the hold-out dataset images used in the paper.
-</div>
+</div><BR><BR>
 
-<B>QuickStart Guide</B>
+<font size="5"><B>QuickStart Guide</B></font>
 1. Prepare Google account and Google Drive
 2. Make "task1" folder on your Google Drive
 3. Download our tuned models, image datasets, and CSV files from our repository on Zenodo (https://zenodo.org/record/5083997)
