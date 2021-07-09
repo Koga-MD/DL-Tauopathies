@@ -22,7 +22,7 @@ This repository contains all python code used in our manuscript (Koga et al. <I>
 
 <B>Other files for our manuscript</B><BR>
 <div>
-<B>1. Training object detection model & Tau quantification & Generating random forest classfier & Hold-out validation study</B> <BR>
+<B>1. Training object detection model & Tau quantification & Generating random forest classfier & validation study</B> <BR>
 With this script, training data (JPG and TXT files) are used to train the YOLO v3 object detection model. After completing the training, the best weight is saved in "drive/" directory. Next, we uploaded a zip file that contains 360 images from 120 cases (RF-1 to RF-120), unzip the file, and applied the object detection model to these images. The quantitative tau lesion burden is obtained and saved in a CSV file.<BR>
 The latter part of the script generates decision tree classifiers and random forest classifiers using quantitative tau lesion burden ascertained from the object detection models above. The CSV file generated above (FinalResult.csv) is used to generate these classifiers. For the validation study, we used CSV files that contains quantitative tau lesion buden (CP13 and AT8) of hold-out cases.<BR>
 We run this code in the Google Colaboratory. Google Drive is used as a data storage. 
