@@ -19,7 +19,7 @@
 
 <B>About this repository</B>  
 <div>
-This repository contains all python code used in our manuscript. The code is provided as JupyterLab script files (.ipynb). There are 2 script files and 9 CSV files as follows:
+This repository contains all python code used in our manuscript (Koga et al. <I>Under Revision</I>). The code is provided as JupyterLab script files (.ipynb). There are 2 script files as follows:
 </div><br>
 <div>
 <B>1. Training object detection model & Tau quantification & Generating random forest classfier & Hold-out validation study</B> <BR>
@@ -33,10 +33,7 @@ With this script, a dataset is split into training and test datasets with a rati
 After running the code, "data" folder will contain test dataset, and "train" folder will contain training dataset. "train.txt" will contain file names of original training dataset. "train2.txt" will contain file names of augmented training dataset. "test.txt" and "test2.txt" are the same files and will contain file names of test dataset.
 </div><BR>
 <div>
-<B>3. CSV files</B><BR>  
-CSV files for random forest will be downloaded from "Files" directory. After downloading, users put these files in their Google Drive "task1" directory.<BR>
-</div><BR>
-<div>
+
 <B>4. Other files</B><BR>  
 The image data (Data.zip and Test.zip), tuned models (Model1.weights, Model2.weights, and Model3.weights), and 9 CSV files used in the paper are available from our Zenodo repository (https://zenodo.org/record/5083997). Data.zip contains 2522 of each image and text file for training models. Test.zip contains 12 images from 4 patients, which are a part of the hold-out dataset images used in the paper.
 </div>
