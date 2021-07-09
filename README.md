@@ -7,7 +7,7 @@ This repository contains all python code used in our manuscript (Koga et al. <I>
 <B>QuickStart Guide</B>
 1. Prepare Google account and Google Drive.
 2. Make "task1" folder on your Google Drive.
-3. Download our tuned models, image datasets, and CSV files from our repository on Zenodo (https://zenodo.org/record/5083997).
+3. Download our tuned models (e.g., Model1.weights), image datasets (Test.zip), and CSV files (e.g., RF-Model1.csv) from our repository  on Zenodo (https://zenodo.org/record/5083997).
 4. Upload these files to "task1" folder on Google Drive.
 5. Click 0_QuickStart.ipynb file on GitHub.
 6. Click "Open in Colab" tab.
@@ -19,7 +19,7 @@ This repository contains all python code used in our manuscript (Koga et al. <I>
 12. Click Cell 5 to analyze the results. Predicted diagnoses will be shown below the Cell. In this dataset, predicted diagnoses are CBD (Case 1), AD (Case 2), PSP (Case 3), and PiD (Case 4), respectively.
 13. You can see analyzed images with bounding boxes at "/content/darknet/drive/result2"
   
-
+<BR>
 <B>Other files for our manuscript</B><BR>
 <div>
 <B>1. Training object detection model & Tau quantification & Generating random forest classfier & validation study</B> <BR>
