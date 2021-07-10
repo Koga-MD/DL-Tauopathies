@@ -7,7 +7,8 @@ This repository contains all python code used in our manuscript (Koga et al. <I>
 <B>QuickStart Guide</B>
 1. Prepare Google account and Google Drive.
 2. Make the "task1" folder on your Google Drive.
-3. Download our tuned models (e.g., Model1.weights), image datasets (Test.zip), and CSV files (e.g., RF-Model1.csv) from our repository on Zenodo (https://zenodo.org/record/5083997).　As a starter, we recommend downloading 3 files as follows: <B>Model1.weights</B>, <B>Test.zip</B>, and <B>RF-Model1.csv</B>.
+3. Download our tuned models (e.g., Model1.weights), image datasets (Test.zip), and CSV files (e.g., RF-Model1.csv) from our repository on Zenodo (https://zenodo.org/record/5083997).　
+  *As a starter, we recommend downloading 3 files as follows: <B>Model1.weights</B>, <B>Test.zip</B>, and <B>RF-Model1.csv</B>.
 4. Upload these files to the "task1" folder on Google Drive.
 5. Click 0_QuickStart.ipynb file on GitHub.
 6. Click the "Open in Colab" tab.
