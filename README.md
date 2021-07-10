@@ -6,16 +6,16 @@ This repository contains all python code used in our manuscript (Koga et al. <I>
 
 <B>QuickStart Guide</B>
 1. Prepare Google account and Google Drive.
-2. Make "task1" folder on your Google Drive.
-3. Download our tuned models (e.g., Model1.weights), image datasets (Test.zip), and CSV files (e.g., RF-Model1.csv) from our repository  on Zenodo (https://zenodo.org/record/5083997).
-4. Upload these files to "task1" folder on Google Drive.
+2. Make the "task1" folder on your Google Drive.
+3. Download our tuned models (e.g., Model1.weights), image datasets (Test.zip), and CSV files (e.g., RF-Model1.csv) from our repository on Zenodo (https://zenodo.org/record/5083997).　As a starter, we recommend downloading 3 files as follows: <B>Model1.weights</B>, <B>Test.zip</B>, and <B>RF-Model1.csv</B>.
+4. Upload these files to the "task1" folder on Google Drive.
 5. Click 0_QuickStart.ipynb file on GitHub.
-6. Click "Open in Colab" tab.
+6. Click the "Open in Colab" tab.
 7. Click Cell 1 to mount your Google Drive.
 8. Click Cell 2 to download and setup the YOLOv3 model.
 9. Click Cell 3 to copy files from your Google Drive "task1" folder. Image files are unzipped and renamed. Model 1 will be used as the default. If you want to use other models, edit Line 2 (Model1.weights will be replaced with Model2.weights or Model3.weights).
-10. Click Cell 4 to start analysis. It may take up to one hour to complete 12 images. 
-11. Results are provided as a CSV file and saved at your Google Drive "task1" folder.
+10. Click Cell 4 to start the analysis. It may take up to one hour to complete 12 images. 
+11. Results are provided as a CSV file and saved in your Google Drive "task1" folder.
 12. Click Cell 5 to analyze the results. Predicted diagnoses will be shown below the Cell. In this dataset, predicted diagnoses are CBD (Case 1), AD (Case 2), PSP (Case 3), and PiD (Case 4), respectively.
 13. You can see analyzed images with bounding boxes at "/content/darknet/drive/result2"
   
